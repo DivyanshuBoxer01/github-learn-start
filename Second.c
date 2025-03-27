@@ -19,3 +19,12 @@ void p1()
     }
 
 }
+void P2()
+{
+    int i=1;
+while(i<=10)
+{
+    printf("%d",10-i);
+    i++;
+}
+}
