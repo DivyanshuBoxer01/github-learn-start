@@ -1,11 +1,24 @@
 #include<stdio.h>
 int main()
 {
-    printf("Hello World\n");
-    printf("HII Divyanshu");
-    int a,b;
-    printf("Enter Numbers: ");
-    scanf("%d%d",&a,&b);
-    printf("Result=%d",a+b);
+    int x,i;
+    for(i=1;i<=3;i++)
+    {
+        printf("Enter Even Number: ");
+        scanf("%d",&x);
+
+        if(x%2==0)
+        {
+            break;
+        }
+    }
+    if(i==4)
+    {
+        printf("Game Over");
+    }
+    else
+    {
+        printf("You Win");
+    }
     return 0;
 }
